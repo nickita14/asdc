@@ -1,23 +1,25 @@
-# Sorting Algorithms in Python
+# Индивидуальная работа №2: Методы сортировки
 
-This Python script implements three popular sorting algorithms - Bubble Sort, Quick Sort and Merge Sort - and applies them to a column of numeric data in a CSV file. The program measures and reports the execution time, number of comparisons, and number of permutations for each algorithm.
+Этот Python скрипт реализует три популярных алгоритма сортировки - Сортировка пузырьком, Быстрая сортировка и Сортировка слиянием - и применяет их к столбцу числовых данных в CSV-файле. Программа измеряет и сообщает время выполнения, количество сравнений и количество перестановок для каждого алгоритма.
 
-## Description of the Sorting Algorithms
+## Описание алгоритмов сортировки
 
-1. **Bubble Sort**: Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
+1. **Bubble Sort**: Сортировка пузырьком - это простой алгоритм сортировки, который неоднократно проходит по списку, сравнивает соседние элементы и меняет их местами, если они расположены в неправильном порядке. Проход по списку повторяется до тех пор, пока список не будет отсортирован.
 
-2. **Quick Sort**: QuickSort is a divide and conquer algorithm. It picks an element as pivot and partitions the given array around the picked pivot. It works by dividing the input into two smaller lists and recursively sorting each of those lists.
+2. **Quick Sort**: Быстрая сортировка - это алгоритм типа "разделяй и властвуй". Он выбирает элемент в качестве опорного и разделяет данный массив вокруг выбранного опорного элемента. Он работает, разделяя входные данные на два меньших списка и рекурсивно сортируя каждый из этих списков.
 
-3. **Merge Sort**: Merge Sort is also a divide and conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. The merge() function is used to merge two halves. 
+3. **Merge Sort**: Сортировка слиянием также является алгоритмом типа "разделяй и властвуй". Он разделяет входной массив на две половины, вызывает сам себя для двух половин, а затем объединяет две отсортированные половины. Функция merge() используется для объединения двух половин.
 
-## How to Run the Program
+## Как запустить программу
 
-The program is run from the command line as follows:
+Программа запускается из командной строки:
 
+```
 python lab2.py
+```
 
-You will be prompted to enter the column name to sort. The column name must exist in the CSV file and it should contain numeric data. The CSV file ('students.csv') should be in the 'src' directory relative to the script.
+Вам будет предложено ввести имя столбца для сортировки. Имя столбца должно присутствовать в CSV-файле и он должен содержать числовые данные. CSV-файл ('students.csv') должен находиться в директории 'src' относительно скрипта.
 
-## Results
+## Результаты
 
-The program will output the execution time, number of comparisons, and number of permutations for each of the sorting algorithms. It will also display the theoretical time complexity of each algorithm. 
+Программа выведет время выполнения, количество сравнений и количество перестановок для каждого из алгоритмов сортировки. Она также отобразит теоретическую сложность каждого алгоритма по времени.
