@@ -14,14 +14,10 @@ This Python script implements three popular sorting algorithms - Bubble Sort, Qu
 
 The program is run from the command line as follows:
 
-python lab2.py.py
+python lab2.py
 
 You will be prompted to enter the column name to sort. The column name must exist in the CSV file and it should contain numeric data. The CSV file ('students.csv') should be in the 'src' directory relative to the script.
 
 ## Results
 
 The program will output the execution time, number of comparisons, and number of permutations for each of the sorting algorithms. It will also display the theoretical time complexity of each algorithm. 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
